@@ -55,10 +55,3 @@ exports.unlikePost = async (req,res) => {
     }
 
 }
-
-
-
-
-exports.dummyLink = (req,res) => {
-    res.send("This is your Dummy Page");
-};
