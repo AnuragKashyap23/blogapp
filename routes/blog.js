@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 //Import Controller
-const { likePost, unlikePost } = require("../controllers/LikeController");
+const {likePost, unlikePost} = require("../controllers/LikeController");
 const {createComment} = require("../controllers/CommentController");
 const {createPost, getAllPosts} = require("../controllers/PostController");
 
