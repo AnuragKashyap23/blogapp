@@ -1,8 +1,8 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Button from '../components/ThemeButton';
-import FeaturedPostCard from '../components/FeaturedPostCard';
-import PostList from '../components/PostList';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import Button from '../../components/ThemeButton';
+import FeaturedPostCard from '../../components/FeaturedPostCard';
+import PostList from '../../components/PostList';
 
 function HomePage() {
   return (
