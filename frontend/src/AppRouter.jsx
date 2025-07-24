@@ -3,8 +3,9 @@ import {
     Routes,
     Route
 } from 'react-router-dom'
-import App from './App'
+import App from './pages/index'
 import Navbar from './components/Navbar'
+import Test from './pages/test'
 
 const AppRouter = () => {
   return (
@@ -12,6 +13,7 @@ const AppRouter = () => {
         <Navbar/>
         <Routes>
             <Route path='/' element={<App />} />
+            <Route path='/test' element={<Test />} />
         </Routes>
     </Router>
   )
