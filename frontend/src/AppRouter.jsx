@@ -6,14 +6,20 @@ import {
 import App from './pages/homepage'
 import Navbar from './components/Navbar'
 import Test from './pages/test'
+import PublicRoutes from './outlets/PublicRoutes'
+import ProtectedRoute from './outlets/ProtectedRoute'
 
 const AppRouter = () => {
   return (
     <Router>
         <Navbar/>
         <Routes>
-            <Route path='/' element={<App />} />
-            <Route path='/test' element={<Test />} />
+            <Route  element={<PublicRoutes />} >
+              <Route path='/' element={<App />} />
+            </Route>
+            <Route path='/test' element={<ProtectedRoute />} >
+              <Route path='/test' element={<Test />} />
+            </Route>
         </Routes>
     </Router>
   )
