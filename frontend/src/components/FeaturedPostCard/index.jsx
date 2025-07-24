@@ -1,4 +1,4 @@
-import Button from '../ThemeButton';
+import Button from '../Button';
 
 function FeaturedPostCard({
   image,
