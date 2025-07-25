@@ -12,6 +12,7 @@ import Login from './pages/login'
 import Signup from './pages/signup'
 import Aboutpage from './pages/about'
 import Postspage from './pages/post'
+import Footer from './components/Footer'
 
 const AppRouter = () => {
   return (
@@ -29,6 +30,7 @@ const AppRouter = () => {
               <Route path='/test' element={<Test />} />
             </Route>
         </Routes>
+              <Footer />
     </Router>
   )
 }
