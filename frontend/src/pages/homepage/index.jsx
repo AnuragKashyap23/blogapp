@@ -21,7 +21,7 @@ function HomePage() {
           <p className="text-lg mb-6 max-w-2xl mx-auto">
             Welcome to <span className="font-semibold">YourBlog</span> — a modern platform to discover stories, share insights, and inspire change.
           </p>
-          <Button text="Get Started" to="/about" />
+          <Button  text="Get Started" to="/login" />
         </section>
 
         {/* Featured Posts */}
@@ -71,8 +71,6 @@ function HomePage() {
         </section>
         </div>
       </main>
-
-      <Footer />
     </>
   );
 }
